@@ -26,3 +26,5 @@ public class TiposVariaveis {
 //float pi = 3.14F; (precisa encerrar com F)
 //double salario = 1275.33;
 //final o valor não será mudado;
+
+
