@@ -2,7 +2,8 @@ public class Operadores {
     
     public static void main(String[] args) {
         String nomeCompleto = "LINGUAGEM" + "JAVA";
-        System.out.print(nomeCompleto);
+        
+        System.out.println(nomeCompleto);
     }
 }
 
@@ -11,7 +12,7 @@ public class Operadores {
 // String nome = "Marcos";
 // int idade = 36;
 // double peso = 65.5;
-// char sexo = 'M';
+// char sexo = 'M'; 
 // boolean doadorOrgao = false;
 // Date dataNascimento = new Date();
 
