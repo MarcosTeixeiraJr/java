@@ -1,0 +1,56 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "OperadorLog",
+            "request": "launch",
+            "mainClass": "operadores.OperadorLog",
+            "projectName": "java_68b3969b"
+        },
+        {
+            "type": "java",
+            "name": "Operadores",
+            "request": "launch",
+            "mainClass": "operadores.Operadores",
+            "projectName": "java_68b3969b"
+        },
+        {
+            "type": "java",
+            "name": "Relacionais",
+            "request": "launch",
+            "mainClass": "operadores.Relacionais",
+            "projectName": "java_68b3969b"
+        },
+        {
+            "type": "java",
+            "name": "Repetições",
+            "request": "launch",
+            "mainClass": "operadores.Repetições",
+            "projectName": "java_68b3969b"
+        },
+        {
+            "type": "java",
+            "name": "VerdFal",
+            "request": "launch",
+            "mainClass": "operadores.VerdFal",
+            "projectName": "java_68b3969b"
+        },
+        {
+            "type": "java",
+            "name": "TiposVariaveis",
+            "request": "launch",
+            "mainClass": "variaveis.TiposVariaveis",
+            "projectName": "java_68b3969b"
+        }
+    ]
+}
