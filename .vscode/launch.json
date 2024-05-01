@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Comentarios",
+            "request": "launch",
+            "mainClass": "Comentarios",
+            "projectName": "java_68b3969b"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
