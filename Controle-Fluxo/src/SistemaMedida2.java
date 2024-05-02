@@ -3,20 +3,18 @@ public class SistemaMedida2 {
         String sigla = "G";
 
         switch (sigla) {
-            case "P":{
+            case "P":
                 System.out.println("PEQUENO");
                 break;
-            }
-            case "M":{
+            case "M":
                 System.out.println("MEDIO");
                 break;
-            }
-            case "G":{
+            case "G":
                 System.out.println("GRANDE");
                 break;
-            }
             default:
                 System.out.println("INDEFINIDO");
         }
     }
 }
+
