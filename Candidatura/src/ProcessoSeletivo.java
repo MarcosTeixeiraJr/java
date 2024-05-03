@@ -1,12 +1,13 @@
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.Random;
 
-public class ProcessoSele {
+public class ProcessoSeletivo {
     public static void main(String[] args) {
-        String [] candidatos = {"Felipe", "Marcia", "Julia", "Paulo", "Augusto"};
+        String[] candidatos = {"Felipe", "Marcia", "Julia", "Paulo", "Augusto"};
         for (String candidato : candidatos) {
             entrandoEmContato(candidato);
         }
+
     }
 
     static void entrandoEmContato(String candidato) {
@@ -17,16 +18,15 @@ public class ProcessoSele {
             atendeu = atender();
             continuarTentando = !atendeu;
             if (continuarTentando)
-                tentativasRealizadas ++;
+                tentativasRealizadas++;
             else
                 System.out.println("CONTATO REALIZADO COM SUCESSO.");
-        }while(continuarTentando && tentativasRealizadas < 3);
-            
-        if(atendeu)
-            System.out.println("CONSEGUIMOS CONTATO COM " +candidato+ "NA " +tentativasRealizadas+ " tentativa.");
+        } while (continuarTentando && tentativasRealizadas < 3);
+
+        if (atendeu)
+            System.out.println("CONSEGUIMOS CONTATO COM " + candidato + " NA " + tentativasRealizadas + " tentativa.");
         else
-            System.out.println("NÃO CONSEGUIMOS CONTATO COM " +candidato+ ", NÚMERO MAXIMO TENTATIVAS " +tentativasRealizadas+ " REALIZADAS.");
-        }
+            System.out.println("NÃO CONSEGUIMOS CONTATO COM " + candidato + ", NÚMERO MÁXIMO DE TENTATIVAS " + tentativasRealizadas + " REALIZADAS.");
     }
 
     //método auxiliar
@@ -35,17 +35,17 @@ public class ProcessoSele {
     }
 
     static void imprimirSelecionados() {
-        String [] candidatos = {"Felipe", "Marcia", "Julia", "Paulo", "Augusto"};
-        System.out.println("Imprimindo a lista de candidatos informando o indíce do elemento.");
-        
-        for(int indice = 0; indice < candidatos.length; indice ++) {
-            System.out.println("O candidato de número " + (indice +1 ) + " é o " + candidatos[indice]);
+        String[] candidatos = {"Felipe", "Marcia", "Julia", "Paulo", "Augusto"};
+        System.out.println("Imprimindo a lista de candidatos informando o índice do elemento.");
+
+        for (int indice = 0; indice < candidatos.length; indice++) {
+            System.out.println("O candidato de número " + (indice + 1) + " é o " + candidatos[indice]);
         }
 
         System.out.println("Forma abreviada de interação for each");
 
-        for(String candidato : candidatos) {
-            System.out.println("O candidato selecionado foi " +candidato);
+        for (String candidato : candidatos) {
+            System.out.println("O candidato selecionado foi " + candidato);
         }
     }
 
