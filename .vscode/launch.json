@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ControleSimplesDeSaques",
+            "request": "launch",
+            "mainClass": "ControleSimplesDeSaques",
+            "projectName": "java_68b3969b"
+        },
+        {
+            "type": "java",
             "name": "VerificacaoChequeEspecial",
             "request": "launch",
             "mainClass": "VerificacaoChequeEspecial",
