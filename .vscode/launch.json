@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VerificadorEligibilidadeConta",
+            "request": "launch",
+            "mainClass": "VerificadorEligibilidadeConta",
+            "projectName": "java_68b3969b"
+        },
+        {
+            "type": "java",
             "name": "VerificadorNumeroConta",
             "request": "launch",
             "mainClass": "VerificadorNumeroConta",
