@@ -13,17 +13,17 @@ public class ControleSimplesDeSaques {
         if (primeiroSaque <= limiteDiario) {
             System.out.println("Saque realizado. Limite restante: " + saldoRestante);
         } else {
-            System.out.println("Limite diario de saque atingido. Transacoes encerradas.");
+            System.out.println("Limite diário de saque atingido. Transações encerradas.");
             scanner.close();
-            return;
+            
         }
 
         // Itera sobre os saques adicionais
-        while (true) {
+        for (int i = 1; ; i++) {
             double valorSaque = scanner.nextDouble();
 
             if (valorSaque == 0) {
-                System.out.println("Transacoes encerradas.");
+                System.out.println("Transações encerradas.");
                 break;
             }
 
@@ -33,7 +33,7 @@ public class ControleSimplesDeSaques {
             }
 
             if (valorSaque > saldoRestante) {
-                System.out.println("Saldo insuficiente. Transacoes encerradas.");
+                System.out.println("Saldo insuficiente. Transações encerradas.");
                 break;
             }
 
