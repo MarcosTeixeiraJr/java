@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SistemaCadastro",
+            "request": "launch",
+            "mainClass": "SistemaCadastro",
+            "projectName": "java_68b3969b"
+        },
+        {
+            "type": "java",
             "name": "Escola",
             "request": "launch",
             "mainClass": "escola.Escola",
