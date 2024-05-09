@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SistemaIbge",
+            "request": "launch",
+            "mainClass": "SistemaIbge",
+            "projectName": "java_68b3969b"
+        },
+        {
+            "type": "java",
             "name": "SistemaCadastro",
             "request": "launch",
             "mainClass": "SistemaCadastro",
