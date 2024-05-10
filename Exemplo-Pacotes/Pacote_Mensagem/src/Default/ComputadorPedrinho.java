@@ -1,10 +1,10 @@
-import Apps.FacebookMenssenger;
-import Apps.MSNMenssenger;
-import Apps.ServicoMensagemInstatanea;
-import Apps.Telegram;
+package Default;
+import App.FacebookMenssenger;
+import App.MSNMenssenger;
+import App.ServicoMensagemInstatanea;
+import App.Telegram;
 
-public class ComputadorMarcos {
-    
+public class ComputadorPedrinho {
     public static void main(String[] args) {
         ServicoMensagemInstatanea smi = null;
         /*
@@ -20,9 +20,8 @@ public class ComputadorMarcos {
         else if (appEscolhido.equals("tlg"))
             smi = new Telegram();
 
-        smi.enviarMensagem();
-        smi.receberMensagem();
+            smi.enviarMensagem();
+            smi.receberMensagem();
 
-        smi.validarConectandoInternet();
     }
 }

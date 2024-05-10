@@ -1,4 +1,4 @@
-package Apps;
+package App;
 //a classe MSNMensenger é ou representa
 public abstract  class ServicoMensagemInstatanea {
     public abstract void enviarMensagem();

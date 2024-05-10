@@ -1,4 +1,4 @@
-package Apps;
+package App;
 public class FacebookMenssenger extends ServicoMensagemInstatanea{
 
     @Override

@@ -1,4 +1,4 @@
-package Apps;
+package App;
 public class MSNMenssenger extends ServicoMensagemInstatanea {
     
    @Override

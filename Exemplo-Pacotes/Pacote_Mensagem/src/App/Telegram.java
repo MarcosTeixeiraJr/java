@@ -1,4 +1,4 @@
-package Apps;
+package App;
 public class Telegram extends ServicoMensagemInstatanea{
    
     
