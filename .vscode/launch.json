@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ComputadorPedrinho",
+            "request": "launch",
+            "mainClass": "Default.ComputadorPedrinho",
+            "projectName": "java_68b3969b"
+        },
+        {
+            "type": "java",
+            "name": "Estabelecimento",
+            "request": "launch",
+            "mainClass": "Lanchonete.Estabelecimento",
+            "projectName": "java_68b3969b"
+        },
+        {
+            "type": "java",
             "name": "SistemaIbge",
             "request": "launch",
             "mainClass": "SistemaIbge",

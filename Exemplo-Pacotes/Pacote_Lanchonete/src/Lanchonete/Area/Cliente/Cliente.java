@@ -10,7 +10,7 @@ public class Cliente {
     public void pagarConta(){
         System.out.println("PAGANDO A CONTA");
     }
-    private void cosultarSaldoAplicativo(){
+    private void consultarSaldoAplicativo(){
         System.out.println("CONSULTANDO SALDO NO APLICATIVO");
     } 
     //public void pegarPedidoBalcao(){
