@@ -1,3 +1,4 @@
+// WelcomeController.java
 package dio.web.api.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -5,8 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class WelcomeController {
+
+    // Endpoint para exibir uma mensagem de boas-vindas
     @GetMapping
     public String welcome() {
         return "Welcome to My Spring Boot Web API";
     }
 }
+
